@@ -7,5 +7,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Get Quote" HorizontalAlignment="Left" Margin="579,443,0,0" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="579,362,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="579,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="579,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="579,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="579,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="579,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Margin="457,241,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="457,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="457,362,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="457,301,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="457,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="457,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+    </Grid>
 </Page>
