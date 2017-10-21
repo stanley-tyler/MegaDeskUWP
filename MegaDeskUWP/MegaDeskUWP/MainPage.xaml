@@ -10,7 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="479,398,404,209" Width="141"/>
         <Button x:Name="addQuote" Content="Add New Quote" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="479,262,404,345" Width="141"/>
-        <Button x:Name="viewQuotes" Content="View Quotes" HorizontalAlignment="Center" VerticalAlignment="Center" Click="viewQuotes_Click" Margin="479,304,404,303" Width="141"/>
+        <Button x:Name="viewQuotes" Content="View Quotes" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="479,304,404,303" Width="141"/>
         <Button x:Name="searchQuotes" Content="Search Quotes" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="479,350,404,257" Width="141"/>
 
     </Grid>

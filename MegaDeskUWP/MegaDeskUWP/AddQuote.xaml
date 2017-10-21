@@ -15,11 +15,12 @@
         <TextBox HorizontalAlignment="Left" Margin="579,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="175"/>
         <TextBox HorizontalAlignment="Left" Margin="579,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
         <TextBox HorizontalAlignment="Left" Margin="579,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="457,241,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="457,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="457,362,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="457,301,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="457,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="457,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="489,71,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="1" Margin="551,138,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="0"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="489,135,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="489,197,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy1" HorizontalAlignment="Left" Margin="489,257,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy2" HorizontalAlignment="Left" Margin="489,313,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="489,374,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
     </Grid>
 </Page>
