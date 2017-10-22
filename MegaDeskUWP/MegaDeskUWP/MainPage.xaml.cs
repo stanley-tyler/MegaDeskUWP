@@ -25,6 +25,17 @@ namespace MegaDeskUWP
         public MainPage()
         {
             this.InitializeComponent();
+            
+        }
+
+        private void addQuote_Click(System.Object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AddQuote), null);
+        }
+
+        private void searchQuotes_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SearchQuote), null);
         }
     }
 }

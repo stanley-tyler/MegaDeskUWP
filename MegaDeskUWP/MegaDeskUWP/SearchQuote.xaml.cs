@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +28,33 @@ namespace MegaDeskUWP
         public SearchQuote()
         {
             this.InitializeComponent();
+        }
+
+        private async void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            resultTextBox.Text = "";
+            StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
+            StorageFile saveFile = await storageFolder.GetFileAsync("Quotes.json");
+           
+            string quoteFile = await FileIO.ReadTextAsync(saveFile);
+            
+            //quoteFile = JsonConvert.DeserializeObject<string>(quoteFile);
+            string material;
+            string[] splitString;
+            material = ((ContentControl)materialComboBox.SelectedItem).Content.ToString();
+
+            for (int i = 0; i < quoteFile.Length; i++)
+            {
+                if (quoteFile.Contains(material))
+                {
+                    splitString = quoteFile.Split(',');
+                    for (int j = 0; j < splitString.Length; j++)
+                    {
+                        resultTextBox.Text += splitString[j] + "\n";
+                    }
+                }
+
+            }
         }
     }
 }

@@ -8,19 +8,29 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Get Quote" HorizontalAlignment="Left" Margin="579,443,0,0" VerticalAlignment="Top" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="579,362,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="579,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="579,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="579,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="579,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <TextBox HorizontalAlignment="Left" Margin="579,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="489,71,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="getQuote" Content="Get Quote" HorizontalAlignment="Left" Margin="579,443,0,0" VerticalAlignment="Top" Width="175" Click="getQuote_Click" TabIndex="7"/>
+        <TextBox x:Name="numOfDrawersTextBox" HorizontalAlignment="Left" Margin="579,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" TabIndex="4"/>
+        <TextBox x:Name="heightTextBox" HorizontalAlignment="Left" Margin="579,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="175" TabIndex="3"/>
+        <TextBox x:Name="widthTextBox" HorizontalAlignment="Left" Margin="579,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" TabIndex="2"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="579,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" TabIndex="1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="460,71,0,0" TextWrapping="Wrap" Text="Enter your Name" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="1" Margin="551,138,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="0"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="489,135,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="489,197,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock2_Copy1" HorizontalAlignment="Left" Margin="489,257,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock2_Copy2" HorizontalAlignment="Left" Margin="489,313,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="489,374,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="489,135,0,0" TextWrapping="Wrap" Text="Enter Width" VerticalAlignment="Top" Height="20"/>
+        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="489,197,0,0" TextWrapping="Wrap" Text="Enter Height" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy1" HorizontalAlignment="Left" Margin="399,253,0,0" TextWrapping="Wrap" Text="Enter Number of Drawers" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy2" HorizontalAlignment="Left" Margin="438,313,0,0" TextWrapping="Wrap" Text="Select Desk Material" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="447,374,0,0" TextWrapping="Wrap" Text="Rush Order Option" VerticalAlignment="Top"/>
+        <ComboBox x:Name="deskMaterialComboBox" HorizontalAlignment="Left" Margin="579,301,0,0" VerticalAlignment="Top" Width="175" TabIndex="5">
+            <ComboBoxItem Content="Oak"/>
+            <ComboBoxItem Content="Laminate"/>
+            <ComboBoxItem Content="Pine"/>
+            <ComboBoxItem Content="Rosewood"/>
+            <ComboBoxItem Content="Veneer"/>
+        </ComboBox>
+        <ComboBox x:Name="rushOptionsComboBox" HorizontalAlignment="Left" Margin="579,362,0,0" VerticalAlignment="Top" Width="175" TabIndex="6">
+            <ComboBoxItem Content="3 day"/>
+            <ComboBoxItem Content="5 day"/>
+            <ComboBoxItem Content="7 day"/>
+        </ComboBox>
     </Grid>
 </Page>
