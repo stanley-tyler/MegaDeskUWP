@@ -1,4 +1,3 @@
-C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\MegaDeskUWP.csprojResolveAssemblyReference.cache
 C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\App.g.i.cs
 C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\App.g.cs
 C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\AddQuote.g.i.cs
@@ -226,3 +225,15 @@ C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\D
 C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\MegaDeskUWP.csprojResolveAssemblyReference.cache
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\bin\x86\Debug\System.Console.dll
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\bin\x86\Debug\System.ComponentModel.Primitives.dll
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\bin\x86\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\bin\x86\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\FxResources.System.Console.SR.resw
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\FxResources.System.ComponentModel.Primitives.SR.resw
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\FxResources.System.ComponentModel.TypeConverter.SR.resw
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
+C:\Users\mrtyl\Desktop\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\MegaDeskUWP\obj\x86\Debug\FxResources.System.Runtime.Serialization.Formatters.SR.resw
